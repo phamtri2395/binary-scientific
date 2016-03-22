@@ -1,0 +1,3 @@
+binary-scientific: main.c libs/processFile.c libs/convertLib.c
+	gcc -o 14520999 main.c libs/processFile.c libs/convertLib.c -Ilibs
+	./14520999
